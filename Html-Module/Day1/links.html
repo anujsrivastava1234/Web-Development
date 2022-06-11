@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css tutorials</title>
+    <style>
+      a :link {
+        background-color: #f44336;
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Link attribute tag <a> and href attribute-->
+    <a
+      href="https://www.hostinger.in/tutorials/website/how-to-link-a-stylesheet-css-file-to-your-html-file"
+      alt="a site"
+      target="_top"
+      >Hostinger</a
+    >
+
+    <!--Absoulte Url -> With https-->
+    <h2>Absoulte Urls</h2>
+    <p><a href="https://www.marvel.com/movies" alt="Error">Movies Site</a></p>
+
+    <!--Relative Urls -> Without https & WWW part-->
+    <!-- <p><a href="marvel.com/characters">Marvel Characters</a></p> -->
+
+    <!--Use image as an link-->
+    <a href="https://www.imdb.com/title/tt0348150/">
+      <img
+        src="https://m.media-amazon.com/images/I/51RInqqMwkL._AC_SY445_.jpg"
+        alt="Superman-Returns"
+        style="height: 400px; width: 300px"
+      />
+    </a>
+    <br />
+
+    <!--sending mail -->
+    <p>
+      <b>For any quieres</b> <br /><a href="mailto:anujsrivastava1596@gmial.com"
+        >Send Mail</a
+      >
+    </p>
+    <!--add title to hyperlinks-->
+    <p>
+      <a
+        href="https://www.w3schools.com/html/html_links.asp"
+        title="Go to w3Schools Website "
+        >click on the link below</a
+      >
+    </p>
+    <button onclick="document.location='https://www.dccomics.com/'">
+      DCEU
+    </button>
+    <br />
+  </body>
+</html>
