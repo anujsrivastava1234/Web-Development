@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Forms</title>
+    <style>
+      input {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Html Forms-->
+    <!--Use post method for sending secure data-->
+    <!--Use get method for sending non-secure data-->
+    <!--Autocomplete-->
+    <form action="/action_page.php" method="post" autocomplete="on" nonvalidate>
+      <!--For text Forms-->
+      <h3>Text Boxes</h3>
+      <label for="fname">First Name :</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Name :</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+
+      <label for="lname">Email :</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <input
+        type="button"
+        name="submit"
+        style="width: 100px; margin-top: 5px"
+        value="Submit"
+      />
+      <br />
+      <br />
+
+      <h3>Radio Buttons</h3>
+      <!--For Radio Buttons-->
+      <input type="radio" id="html" name="fav_language" value="html" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="CSS" name="fav_language" value="CSS" />
+      <label for="CSS">CSS</label><br />
+      <input
+        type="radio"
+        id="Javascript"
+        name="fav_language"
+        value="Javascript"
+      />
+      <label for="html">Javascript</label><br />
+      <br />
+      <h3>CheckBoxes</h3>
+      <!--For CheckBox Buttons -->
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="bike" />
+      <label for="vehicle1">I have a Bike</label><br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="bike" />
+      <label for="vehicle1">I Have a Car</label><br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="bike" />
+      <label for="vehicle1">I have a Boat</label>
+      <br />
+      <br />
+      <!--Drop Down list-->
+    </form>
+    <hr style="margin: 20px solid black" />
+    <br />
+    <!--Password-->
+    <form autocomplete="on">
+      <center><h1 style="margin: 40px">Password</h1></center>
+      <label for="emailid">Enter Your Email Id :</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <label for="emailid">Enter Your Password :</label><br />
+      <input type="password" id="email" name="email" />
+      <br />
+      <!--Phone number-->
+      <label for="phone">Enter Your Number</label><br>
+      <input type="tel" id="Phone " name="Phone"><br>
+      <label for="Phone number">Enter your Prefercence</label><br>
+      <!--Number input-->
+      <input type="number" id="number" name="Phone number" min="1" max="10"><br>
+      <!--Submit button-->
+      <input type="button" name="Submit" value="Submit" /><br />
+      <input type="reset" /><br />
+    </form>
+    <!--Colors-->
+    <hr style="margin: 20px solid black" />
+    <center><h1>Colors</h1></center>
+    <form>
+      <input type="color" id="colors" name="color" value="#ff0000" />
+      <input type="button" value="Submit Get" formmethod="get" value="Submit using Get"/>
+      <input type="button" value="Submit Post" formmethod="post" value="Submit using Get"/><br>
+      
+    </form>
+    <br />
+    <!--Date and Time-->
+    <hr />
+    <center>
+      <h1>When your birthday...&#x1F370</h1>
+    </center>
+    <form>
+      <label for="birthday">Birthday</label><br>
+      <input type="date" id="birthday" name="birthday"><br>
+      <!--Month -->
+      <label for="Birthday Month">Month Of Birth</label><br>
+      <input type="month" id="birthday Month"><br>
+      <!--Type Time -->
+      <label for="Time">Time for Birth</label><br>
+      <input type="time" id="Time" name="Time"><br>
+    </form>
+    <br>
+    <br>
+    <hr>
+    <!--File Format-->
+    <form>
+      <input type="file">
+    </form>
+    <br>
+    <br>
+    <hr>
+    <form>
+      <label for="search bar">Search Google :</label><br>
+      <input type="search" id="search bar" name="search bar">
+    </form>
+  </body>
+</html>

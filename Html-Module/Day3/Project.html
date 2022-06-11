@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Forms</title>
+    <style>
+      h1 {
+        border: 2px solid plum;
+        text-align: center;
+        color: black;
+        background-color: antiquewhite;
+      }
+      label {
+        font-style: bold;
+        color: black;
+      }
+      body {
+        background-color: purple;
+        font-weight: 100;
+      }
+      p {
+        color: black;
+      }
+      form {
+        background-color: antiquewhite;
+        padding-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>General Information Page</h1>
+    <br />
+    <hr />
+    <form validate autocomplete="on" method="post">
+      <label for="fname">Enter Your First Name : </label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        style="
+          height: 20px;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        "
+      /><br />
+      <label for="lname">Enter Your Last Name : </label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        style="
+          height: 20px;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        "
+      /><br />
+      <label for="phone">Enter Your Phone Number :</label><br />
+      <input
+        type="tel"
+        style="
+          height: 20px;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        "
+      /><br />
+      <label for="Email">E-mail :</label><br />
+      <input
+        type="email"
+        style="
+          height: 20px;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        "
+      /><br />
+      <label for="DOB">Date-of-birth :</label><br />
+      <input
+        type="date"
+        style="
+          height: 20px;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        "
+      /><br />
+      <p>Gender :</p>
+      <input type="radio" value="Male" />
+      <label for="Gender">Male</label><br />
+      <input type="radio" value="Male" />
+      <label for="Gender">Female</label><br />
+      <input type="radio" value="Male" />
+      <label for="Gender">Others</label><br />
+      <br />
+      <br />
+      <label for="Jobs">Choose Your Current Domain :</label>
+      <select id="Jobs" name="Jobs">
+        <option value="Job1" style="border: black"></option>
+        <option value="Job1">Web Dev</option>
+        <option value="Job1">App Dev</option>
+        <option value="Job1">Cyber Securtiy</option>
+        <option value="Job1">Data analyst</option>
+        <option value="Job1">Backend Development</option>
+        <option value="Job1">Full Stack Development</option>
+        <option value="Job1">UI/UX Designer</option>
+        <option value="Job1">Digital Marketing</option>
+        <option value="Job1">Artifical Intelligence</option>
+      </select>
+      <br />
+      <br />
+      <label for="Lang">Choose Your Language : </label><br />
+      <input type="checkbox" id="lang1" name="lang1" />
+      <label for="lang1">C++</label><br />
+      <input type="checkbox" id="lang2" name="lang2" />
+      <label for="lang2">Java</label><br />
+      <input type="checkbox" id="lang3" name="lang3" />
+      <label for="lang1">Python</label><br />
+      <input type="checkbox" id="lang4" name="lang4" />
+      <label for="lang1">Javascript</label><br />
+      <input type="checkbox" id="lang5" name="lang5" />
+      <label for="lang1">Rust</label><br />
+      <br />
+      <br />
+      <label for="RESUME">Upload Your Resume :</label><br />
+      <input
+        type="file"
+        style="background-color: white; border: 1px solid black"
+        id="resume"
+        name="resume"
+      /><br /><br />
+      <label for="weeks">Number of week for work :</label>
+      <input type="number" min="1" max="8" /><br />
+      <br />
+      <input type="submit" formmethod="post" /><input type="reset" />
+    </form>
+  </body>
+</html>
