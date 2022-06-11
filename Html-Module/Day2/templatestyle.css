@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+/*Style the header*/
+header {
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: azure;
+}
+/* Create two box next to each other*/
+nav {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #ccc;
+}
+/* for inside list */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*Main article*/
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+/*Section -> After the columns*/
+section {
+}

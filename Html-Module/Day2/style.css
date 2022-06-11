@@ -1,0 +1,14 @@
+img {
+  height: 400px;
+  width: 300px;
+  border: 2px solid bisque;
+  padding: 10px;
+  justify-content: center;
+}
+h1 {
+  background-color: antiquewhite;
+  color: black;
+}
+body {
+  background-color: darksalmon;
+}
