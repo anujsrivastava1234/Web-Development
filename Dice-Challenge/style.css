@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #393E46;
+}
+
+h2 {
+    color: #4ECCA3;
+    font-family: 'Indie Flower',cursive;
+}
+
+.header-heading {
+    font-size: 120px;
+    padding: 3% 30%;
+    color: #4ECCA3;
+    font-family: 'Lobster',cursive;
+}
+.row {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#footer {
+    padding-top: 3%;
+    color: #EEEEEE;
+    font-family: 'Indie Flower',cursive;
+    text-align: center;
+}
