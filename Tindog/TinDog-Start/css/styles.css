@@ -2,19 +2,23 @@
 body {
     font-family: 'Montserrat';
 }
-h1 {
 
-    font-family: 'Montserrat-Black';
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold';
+}
+h1 {
+    
     font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: 900;
 }
 h2 {
-    font-family: 'Montserrat-Bold';
+    
     font-size: 3rem;
     line-height: 1.5;
 }
 h3 {
-    font-family: 'Montserrat-Bold';
+    
     font-weight: 1.5rem;
 }
 
@@ -142,6 +146,9 @@ p{
     background-color: #ffff;
     text-align: center;
 }
+
+
+/*Media Quries*/
 
 @media (max-width: 1028px) {
     .title-img {
